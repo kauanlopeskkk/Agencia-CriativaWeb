@@ -55,14 +55,14 @@ body {
 }
 
 .home {
-  background-color: background-image linear-gradient(to right, #00753b, #00d9ff);
+  background-image: linear-gradient(to right, #00753b, #00d9ff);
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 .section {
-  background-color: background-image linear-gradient(to right, #00753b, #00d9ff);
+  background-image: linear-gradient(to right, #00753b, #00d9ff);
   color: white;
   padding: 20px;
   text-align: center;
