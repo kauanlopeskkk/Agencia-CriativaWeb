@@ -1,0 +1,24 @@
+@use "variaveis";
+@use "mixins";
+
+.button{
+    background-color: variaveis.$cor-primaria;
+    color: variaveis.$cor-texto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: calc(variaveis.$espacamento / 2);
+}
+.button:hover{
+    background-color: variaveis.$cor-secundaria;
+}
+.button__titulo{
+    font-size:1.2rem;
+    margin: 10px 0;
+}
+.button__texto{
+    font-size: 1rem;
+    color: variaveis.$cor-texto;
+}
